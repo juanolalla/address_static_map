@@ -1,0 +1,31 @@
+field.formatter.settings.address_static_map:
+  type: mapping
+  label: 'Address Static Map text length'
+  mapping:
+    zoom_level:
+      type: string
+      label: 'Zoom level'
+    map_size:
+      type: string
+      label: 'Map size'
+    scroll_lock:
+      type: boolean
+      label: 'Prevent scrolling and zooming the map'
+    additional:
+      type: text
+      label: 'Additional parameters to use in the map URL (i.e. styling a map)'
+    info_window:
+      type: boolean
+      label: 'Show the address in an info window'
+    text_address:
+      type: boolean
+      label: 'Show the address in text format'
+    map_style:
+      type: string
+      label: 'Map style'
+    scale:
+      type: integer
+      label: 'Scale'
+    advanced_settings_block:
+      type: integer
+      label: 'Advanced settings block'

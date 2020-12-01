@@ -1,0 +1,7 @@
+name: Address Static Map
+type: module
+description: 'Provides Google Static Map based on entity address fields.'
+package: Fields
+core_version_requirement: ^8.8 || ^9
+dependencies:
+  - drupal:field
